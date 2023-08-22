@@ -1,6 +1,6 @@
-
 import CurratedBlock from "./components/sample/CurratedBlocks";
 import HomePageBanner from "./components/sample/HomePage";
+import Brands from "./components/Brands";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
 
       <HomePageBanner></HomePageBanner>
       <CurratedBlock/>
+      <Brands />
     </div>
   );
 }
