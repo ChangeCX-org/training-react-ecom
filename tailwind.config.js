@@ -12,6 +12,14 @@ module.exports = {
   },
   plugins: [],
 
+  variants: {
+    extend: {
+      backgroundColor: ['group-hover'],
+      display: ['group-hover'],
+      minHeight: ['group-hover'],
+    },
+  },
+
 
 }
 
