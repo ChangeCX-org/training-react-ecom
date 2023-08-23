@@ -1,14 +1,24 @@
-import CurratedBlock from "./components/sample/CurratedBlocks";
-import HomePageBanner from "./components/sample/HomePage";
-import Brands from "./components/Brands";
-
+import Homepage from "./components/HomePage";
+import {BrowserRouter , Routes , Route} from "react-router-dom";
+import Describtion from "./components/sample/PDP";
+import DescribtionWomen from "./components/sample/Women";
+import DescribtionMen from "./components/sample/Men";
+import DescribtionCasual from "./components/sample/Casual";
+import DescribtionBestseller from "./components/sample/Bestseller";
 function App() {
   return (
     <div className="p-10">
-
-      <HomePageBanner></HomePageBanner>
-      <CurratedBlock/>
-      <Brands />
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Homepage/>}/>
+        {/* <Route path="/Pdp" element={<Describtion/>}/> */}
+        <Route path="/Bestseller" element={<DescribtionBestseller/>}/>
+        <Route path="/Women" element={<DescribtionWomen/>}/>
+        <Route path="/Men" element={<DescribtionMen/>}/>
+        <Route path="/Casual" element={<DescribtionCasual/>}/>
+      </Routes>
+      </BrowserRouter>
+      
     </div>
   );
 }

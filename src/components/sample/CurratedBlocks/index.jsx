@@ -1,4 +1,6 @@
 import React from "react";
+
+import { useNavigate } from "react-router-dom";
 const data = [
   {
     title: "Bestseller",
@@ -22,24 +24,50 @@ const data = [
   },
 ];
 const CurratedBlock = () => {
+  const navigate = useNavigate();
   // currated block
+  const handleNavigate = (title) => {
+    switch (title) {
+      case "Bestseller":
+        navigate("/Bestseller");
+        break;
+      case "Shop Men":
+        navigate("/Men");
+        break;
+      case "Shop Women":
+        navigate("/Women");
+        break;
+      case "Shop Casual":
+        navigate("/Casual");
+        break;
+      default:
+        break;
+    }
+  };
+
   return (
     <div>
       <p className=" text-4xl mt-10 font-extrabold">Currated Picks</p>
       <div className=" grid grid-cols-1 gap-4 lg:grid-cols-4 mt-7 ">
         {data?.map((val, idx) => {
-          return <div className="relative" key={idx}>
-          <img
-            src={val?.img}
-            alt="image 1"
-            className=" lg:h-64 lg:w-72 h-72 w-96 rounded-xl"
-          />
-          <div className="absolute bottom-6 lg:left-14 left-20">
-            <h1 className="text-xl text-center font-bold bg-white text-black w-44 px-6">
-              {val?.title}
-            </h1>
-          </div>
-        </div>
+          return (
+            <div
+              className="relative"
+              key={idx}
+              onClick={() => handleNavigate(val.title)}
+            >
+              <img
+                src={val?.img}
+                alt="image 1"
+                className=" lg:h-64 lg:w-72 h-72 w-96 rounded-xl"
+              />
+              <div className="absolute bottom-6 lg:left-14 left-20">
+                <h1 className="text-xl text-center font-bold bg-white text-black w-44 px-6">
+                  {val?.title}
+                </h1>
+              </div>
+            </div>
+          );
         })}
       </div>
     </div>
