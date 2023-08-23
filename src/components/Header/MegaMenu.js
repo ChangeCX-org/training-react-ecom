@@ -345,7 +345,7 @@ const MegaMenu = () => {
               <a href = ""><li class="mb-1 hover:font-bold">Hand Cream</li></a>
             </ul>
             <div className="font-semibold mb-3 mt-5 text-green-500">Body Care</div>
-            <div className="font-semibold mb-3 mt-5 text-green-500">Masks</div>
+            <div className="font-semibold mb-3 mt-2 text-green-500">Masks</div>
           </div>
           <div className="col-span-3 sm:col-span-1">
             <div className="font-semibold mb-3 text-green-500">Haircare</div>
@@ -425,8 +425,8 @@ const MegaMenu = () => {
               >
                 <button className="p-4 hover:text-red-500">{menu.label}</button>
                 {activeMenu === index && (
-                  <div className="mr-20 mega-menu-wrapper fixed top-28 left-10 bottom-0 w-full flex justify-center items-center px-10 pr-20">
-                    <div className="mega-menu absolute bg-gray-50 h-screen w-screen py-4 px-8 shadow-2xl border-t-2">
+                  <div className="mr-20 mega-menu-wrapper fixed mb-80 left-10 bottom-0 w-full flex justify-center items-center px-10 pr-20">
+                    <div className="mega-menu absolute bg-gray-50 w-screen py-4 px-8 shadow-2xl border-t-2">
                       {menu.content}
                     </div>
                   </div>
