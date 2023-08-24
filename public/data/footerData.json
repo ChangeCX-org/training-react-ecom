@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "key": "1",
+      "name": "Shop",
+      "menu": [
+        {
+          "key": "1a",
+          "name": "Footwear"
+        },
+        {
+          "key": "1b",
+          "name": "Clothing"
+        },
+        {
+          "key": "1c",
+          "name": "Accessories"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "key": "1",
+      "name": "Men",
+      "menuLevel1": [
+        {
+          "key": "1a",
+          "name": "Topwear",
+          "menuLevel2": [
+            {
+              "key": "1a1",
+              "name": ["Tshirts", "CasualShirts"]
+            }
+          ]
+        },
+        {
+          "key": "1b",
+          "name": "Bottomwear"
+        }
+      ]
+    },
+    {
+      "key": "2",
+      "name": "Women"
+    }
+  ]
+}
