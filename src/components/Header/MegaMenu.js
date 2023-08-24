@@ -44,7 +44,8 @@ const MegaMenu = () => {
               <a href = ""><li class="mb-1 hover:font-bold">Kurtas & Kurta Sets</li></a>
               <a href = ""><li class="mb-1 hover:font-bold">Sherwanis</li></a>
               <a href = ""><li class="mb-1 hover:font-bold">Nehru Jackets</li></a>
-              <a href = ""><li class="mb-1 hover:font-bold">dhotis</li></a>
+              <a href = ""><li class="mb-1 hover:font-bold">Dhotis</li></a>
+              <a href = ""><li class="mb-1 hover:font-bold">Short Kurta</li></a>
             </ul>
           </div>
           <div className="col-span-3 sm:col-span-1">
@@ -302,6 +303,7 @@ const MegaMenu = () => {
               <a href=""><li class="mb-1 hover:font-bold">United Colors of Benetton Kids</li></a>
               <a href=""><li class="mb-1 hover:font-bold">YK</li></a>
               <a href=""><li class="mb-1 hover:font-bold">U.S. Polo Assn. Kids</li></a>
+              <a href=""><li class="mb-1 hover:font-bold">HRX</li></a>
             </ul>
           </div>
         </div>
