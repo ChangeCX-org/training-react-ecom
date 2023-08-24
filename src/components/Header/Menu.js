@@ -13,7 +13,7 @@ const Menu = () => {
     <div class="md:hidden flex items-center justify-end mb-2">
       <button class="outline-none mobile-menu-button" onClick={toggleMenu}>
         <svg
-          class="w-6 h-6 text-gray-500 -mt-9"
+          class="w-6 h-6 text-gray-500 -mt-6"
           x-show="!showMenu"
           fill="none"
           stroke-linecap="round"

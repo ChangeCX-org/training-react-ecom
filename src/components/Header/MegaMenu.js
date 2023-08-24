@@ -442,8 +442,8 @@ const MegaMenu = () => {
             <User />
           </div>
         </div>
+        <Menu />
       </nav>
-      <Menu />
     </div>
   );
 };
