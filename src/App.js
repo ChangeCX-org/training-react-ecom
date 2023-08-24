@@ -8,7 +8,7 @@ import DescribtionBestseller from "./components/sample/Bestseller";
 import Header from "./components/Header";
 function App() {
   return (
-    <div className="p-10">
+    <div className="p-10 pt-0">
        <Header/>
       <BrowserRouter>
       <Routes>
