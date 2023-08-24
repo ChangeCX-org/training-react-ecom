@@ -1,8 +1,9 @@
 import React from "react";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
+import MegaMenu from "./MegaMenu";
 
 const Header = () => {
-    return <Navbar/>
+    return <MegaMenu/>
 }
 
 export default Header;
