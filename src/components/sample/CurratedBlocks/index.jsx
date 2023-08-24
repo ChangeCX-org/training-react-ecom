@@ -47,7 +47,8 @@ const CurratedBlock = () => {
 
   return (
     <div>
-      <p className=" text-4xl mt-10 font-extrabold">Currated Picks</p>
+      <p className=" text-4xl mt-0
+       font-extrabold">Currated Picks</p>
       <div className=" grid grid-cols-1 gap-4 lg:grid-cols-4 mt-7 ">
         {data?.map((val, idx) => {
           return (
