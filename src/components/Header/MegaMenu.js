@@ -427,7 +427,7 @@ const MegaMenu = () => {
               >
                 <button className="p-4 hover:text-red-500">{menu.label}</button>
                 {activeMenu === index && (
-                  <div className="mr-20 mega-menu-wrapper fixed mb-80 left-10 bottom-0 w-full flex justify-center items-center px-10 pr-20">
+                  <div className="mr-20 mega-menu-wrapper fixed mb-80 left-10 bottom-0 w-full flex justify-center items-center px-10 pr-20 z-50">
                     <div className="mega-menu absolute bg-gray-50 w-screen py-4 px-8 shadow-2xl border-t-2">
                       {menu.content}
                     </div>

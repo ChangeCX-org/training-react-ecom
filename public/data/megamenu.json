@@ -10,19 +10,358 @@
           "menuLevel2": [
             {
               "key": "1a1",
-              "name": ["Tshirts", "CasualShirts"]
+              "name": [
+                "Tshirts",
+                "CasualShirts",
+                "Formal Shirts",
+                "Sweatshirts",
+                "Sweaters",
+                "Jackets",
+                "Blazer & Coats",
+                "Suits",
+                "Rain Jackets"
+              ]
             }
           ]
         },
         {
           "key": "1b",
-          "name": "Bottomwear"
+          "name": "Bottomwear",
+          "menuLevel2": [
+            {
+              "key": "1a2",
+              "name": [
+                "Jeans",
+                "Casual Trousers",
+                "Formal Trousers",
+                "Shorts",
+                "Track Pants & Joggers"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "1c",
+          "name": "Indian & Festive Wear",
+          "menuLevel2": [
+            {
+              "key": "1a3",
+              "name": [
+                "Kurtas & Kurta Sets",
+                "Sherwanis",
+                "Nehru Jackets",
+                "Dhotis"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "1d",
+          "name": "Innerwear & Sleepwear",
+          "menuLevel2": [
+            {
+              "key": "1a4",
+              "name": [
+                "Briefs & Trunks",
+                "Boxers",
+                "Vests",
+                "Sleepwear & Loungewear",
+                "Thermals"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "1e",
+          "name": "Footwear",
+          "menuLevel2": [
+            {
+              "key": "1a5",
+              "name": [
+                "Casual Shoes",
+                "Sports Shoes",
+                "Formal Shoes",
+                "Sneakers",
+                "Sandals & Floaters",
+                "Flip Flops",
+                "Socks"
+              ]
+            }
+          ]
         }
       ]
     },
     {
       "key": "2",
-      "name": "Women"
+      "name": "Women",
+      "menuLevel1": [
+        {
+          "key": "2a",
+          "name": "Indian & Fusion Wear",
+          "menuLevel2": [
+            {
+              "key": "2a1",
+              "name": [
+                "Kurtas & Suits",
+                "Kurtis, Tunics & Tops",
+                "Sarees",
+                "Ethnic Wear",
+                "Leggings, Salwars & Churidars",
+                "Skirts & Palazzos",
+                "Dress Materials",
+                "Lehenga Cholis",
+                "Dupattas & Shawls",
+                "Jackets"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "2b",
+          "name": "Western Wear",
+          "menuLevel2": [
+            {
+              "key": "2a2",
+              "name": [
+                "Dresses",
+                "Tops",
+                "Tshirts",
+                "Jeans",
+                "Trousers & Capris",
+                "Shorts & Skirts",
+                "Co-ords"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "2c",
+          "name": "Footware",
+          "menuLevel2": [
+            {
+              "key": "2a3",
+              "name": [
+                "Flats",
+                "Casual Shoes",
+                "Heels",
+                "Boots",
+                "Sports Shoes & Floaters"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "2d",
+          "name": "Sports & Active Wear",
+          "menuLevel2": [
+            {
+              "key": "2a4",
+              "name": [
+                "Clothing",
+                "Footwear",
+                "Sports Accessories",
+                "Sports Equipment"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "2e",
+          "name": "Jewellery",
+          "menuLevel2": [
+            {
+              "key": "2a5",
+              "name": [
+                "Fashion Jewellery",
+                "Fine Jewellery",
+                "Earrings",
+                "Necklace"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "3",
+      "name": "Kids",
+      "menuLevel1": [
+        {
+          "key": "3a",
+          "name": "Boys Clothing",
+          "menuLevel2": [
+            {
+              "key": "3a1",
+              "name": [
+                "T-Shirts",
+                "Shirts",
+                "Shorts",
+                "Jeans",
+                "Trousers",
+                "Clothing Sets",
+                "Ethnic Wear"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "3b",
+          "name": "Girls Clothing",
+          "menuLevel2": [
+            {
+              "key": "3a2",
+              "name": [
+                "Dresses",
+                "Tops",
+                "Tshirts",
+                "Clothing Sets",
+                "Lehenga choli",
+                "Kurta Sets",
+                "Party wear"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "3c",
+          "name": "Footwear",
+          "menuLevel2": [
+            {
+              "key": "3a3",
+              "name": [
+                "Casual Shoes",
+                "Flipflops",
+                "Sports Shoes",
+                "Flats",
+                "Sandals",
+                "Heels",
+                "School Shoes",
+                "Socks"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "3d",
+          "name": "Toys & Games",
+          "menuLevel2": [
+            {
+              "key": "3a4",
+              "name": [
+                "Learning & Development",
+                "Activity Toys",
+                "Soft Toys",
+                "Action Figure / Play set"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "3e",
+          "name": "Kids Accessories",
+          "menuLevel2": [
+            {
+              "key": "3a5",
+              "name": [
+                "Bags & Backpacks",
+                "Watches",
+                "Jewellery & Hair accessory",
+                "Sunglasses",
+                "Masks & Protective Gears",
+                "Caps & Hats"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "4",
+      "name": "Beauty",
+      "menuLevel1": [
+        {
+          "key": "4a",
+          "name": "Makeup",
+          "menuLevel2": [
+            {
+              "key": "4a1",
+              "name": [
+                "Lipstick",
+                "Lip Gloss",
+                "Lip Liner",
+                "Mascara",
+                "Eyeliner",
+                "Kajal",
+                "Eyeshadow"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "4b",
+          "name": "Skincare, Bath & Body",
+          "menuLevel2": [
+            {
+              "key": "4a2",
+              "name": [
+                "Face Moisturiser",
+                "Cleanser",
+                "Masks & Peel",
+                "Sunscreen",
+                "Serum",
+                "Face Wash",
+                "Eye Cream"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "4c",
+          "name": "Haircare",
+          "menuLevel2": [
+            {
+              "key": "4a3",
+              "name": [
+                "Shampoo",
+                "Conditioner",
+                "Hair Cream",
+                "Hair Oil",
+                "Hair Gel",
+                "Hair Color"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "4d",
+          "name": "Fragrances",
+          "menuLevel2": [
+            {
+              "key": "4a4",
+              "name": ["Perfume", "Deodorant", "Body Mist"]
+            }
+          ]
+        },
+        {
+          "key": "4e",
+          "name": "Top Brands",
+          "menuLevel2": [
+            {
+              "key": "4a5",
+              "name": [
+                "Lakme",
+                "Maybelline",
+                "LOreal",
+                "Philips",
+                "Bath & Body Works",
+                "THE BODY SHOP",
+                "Biotique",
+                "Mamaearth"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
