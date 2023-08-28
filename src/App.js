@@ -6,6 +6,7 @@ import DescribtionMen from "./components/sample/Men";
 import DescribtionCasual from "./components/sample/Casual";
 import DescribtionBestseller from "./components/sample/Bestseller";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="p-10">
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Casual" element={<DescribtionCasual/>}/>
       </Routes>
       </BrowserRouter>
+      <Footer/>
       
     </div>
   );

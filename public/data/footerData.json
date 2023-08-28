@@ -2,21 +2,35 @@
   "data": [
     {
       "key": "1",
-      "name": "Shop",
+      "name": "Company",
       "menu": [
         {
           "key": "1a",
-          "name": "Footwear"
-        },
-        {
-          "key": "1b",
-          "name": "Clothing"
-        },
-        {
-          "key": "1c",
-          "name": "Accessories"
+          "name": [
+            "Pricing",
+            "About Us",
+            "Contact Us",
+            "Journals"
+           ]
+       
+          }
+        ]
+      },
+      {
+        "key": "2",
+        "name": "Customer Care",
+        "menu": [
+          {
+            "key": "2a",
+            "name": [
+              "Contact",  
+              "Delivery",
+              "Returns",
+              "Privacy"
+             ]
+         
+            }
+          ]
         }
       ]
     }
-  ]
-}
