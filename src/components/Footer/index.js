@@ -1,6 +1,10 @@
 import React from 'react'
+import Footerdata from '../../footerData.json'
+
 
 const Footer= ()=> {
+    const data = Footerdata.data
+    console.log("data", data)
   return (
     <div className="mx-auto container py-16  lg:px-12  px-4 bg-orange-200 mt-4">
     <div className="grid grid-cols-2  lg:grid-cols-4  gap-4">
@@ -56,20 +60,16 @@ const Footer= ()=> {
                 </div>
             </div>
         </div>
-        <div className="sm:ml-0 ml-8">
-            <h2 className="text-xl font-semibold leading-4 text-gray-800">Company</h2>
-             <p className="hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 cursor-pointer">Pricing</p>
-            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 cursor-pointer">About Us</p>
-            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 cursor-pointer">Contact us</p>
-            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 cursor-pointer">Journals</p>
-        </div>
-        <div>
-            <h2 className="text-xl font-semibold leading-4 text-gray-800">Customer Care</h2>
-            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 cursor-pointer">Contact</p>
-            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 cursor-pointer">Delivery</p>
-            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 cursor-pointer">Returns</p>
-            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 cursor-pointer">Privacy</p>
-        </div>
+        {data.map((value) => {
+           return (
+           <div className="sm:ml-0 ml-8">
+            <h2 className="text-xl font-semibold leading-4 text-gray-800">{value.name}</h2>
+            {value.menu.map((x) => {
+             return <p className="hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 cursor-pointer">{x}</p>
+             })}
+           
+        </div>)
+        })}
         <div className="mt-10 lg:block hidden">
             <label className="text-xl font-medium leading-5 text-black">Get updates</label>
             <div className="cursor-pointer flex items-center justify-between border border-gray-800 mt-4">
