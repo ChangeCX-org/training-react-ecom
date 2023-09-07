@@ -12,7 +12,7 @@ function App() {
     <div className="p-10 pt-0">
        <Header/>
       <BrowserRouter>
-      <Routes>
+      <Routes> 
         <Route path="/" element={<Homepage/>}/>
         {/* <Route path="/Pdp" element={<Describtion/>}/> */}
         <Route path="/Bestseller" element={<DescribtionBestseller/>}/>

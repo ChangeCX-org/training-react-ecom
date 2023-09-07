@@ -4,33 +4,21 @@
       "key": "1",
       "name": "Company",
       "menu": [
-        {
-          "key": "1a",
-          "name": [
             "Pricing",
             "About Us",
             "Contact Us",
             "Journals"
-           ]
-       
-          }
-        ]
+      ]
       },
       {
         "key": "2",
         "name": "Customer Care",
         "menu": [
-          {
-            "key": "2a",
-            "name": [
               "Contact",  
               "Delivery",
               "Returns",
               "Privacy"
-             ]
-         
-            }
-          ]
-        }
-      ]
-    }
+        ]
+      }
+    ]
+  }
